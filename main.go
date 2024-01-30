@@ -43,6 +43,7 @@ func NewBlockchain() *Blockchain {
 	return blockchain
 }
 
+// Taken from https://jeiwan.net/posts/building-blockchain-in-go-part-1/
 func main() {
 	blockchain := NewBlockchain()
 
